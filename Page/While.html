@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ana Karen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/styles1.css">
+    <style>
+        @keyframes jumpAndRotate {
+            0% {
+                transform: translateY(0) rotate(0deg);
+            }
+            50% {
+                transform: translateY(-30px) rotate(180deg);
+            }
+            100% {
+                transform: translateY(0) rotate(360deg);
+            }
+        }
+
+        .jump-rotate {
+            animation: jumpAndRotate 2s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #dbbc88;">
+            <div class="container">
+                <a class="navbar-brand jump-rotate" href="../index.html">AKLJ</a>
+                <button class="navbar-toggler jump-rotate" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active jump-rotate" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link jump-rotate" href="#"></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle jump-rotate" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Estructuras de control
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item jump-rotate" href="../page/lineal.html">Lineal</a></li>
+                                <li><a class="dropdown-item jump-rotate" href="../page/if.html">If</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item jump-rotate" href="#">Algo más aquí</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="py-5 text-center" style="background-color: #dbbc88;">
+            <div class="container">
+                <h2 class="display-4 ga-maamli-regular jump-rotate">Estructura de control While</h2>
+                <img src="../Assets/img/While.webp" alt="Estructura de control lineal" class="img-fluid my-4 rounded jump-rotate">
+                <p class="lead texto jump-rotate">El «while» es una estructura de control que se utiliza en programación para repetir una serie de instrucciones mientras una condición específica se cumple. En otras palabras, el «while» permite que un programa repita ciertas acciones hasta que se deje de cumplir una condición particular.</p>
+            </div>
+        </section>
+        
+        <section class="py-5" style="background-color: #dbbc88;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="../Assets/img/dia-programador-ingenieria-unir-mexico.webp " alt="¿Dónde se ocupa?" class="card-img-top img-fluid rounded jump-rotate">
+                            <div class="card-body">
+                                <h5 class="card-title jump-rotate">¿Dónde se ocupa?</h5>
+                                <p class="card-text jump-rotate">Los sistemas de control lineal son fundamentales en la ingeniería y la tecnología modernas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="../Assets/img/programacion-2-e1551291144973.webp" alt="¿Para qué se ocupan?" class="card-img-top img-fluid rounded jump-rotate">
+                            <div class="card-body">
+                                <h5 class="card-title jump-rotate">¿Para qué se ocupan?</h5>
+                                <p class="card-text jump-rotate">1.- Iteración indefinida: Cuando no se conoce de antemano cuántas veces se debe repetir un bloque de código. Por ejemplo, leer datos hasta que el usuario decida detenerse. 2.- Condiciones de entrada: Validar la entrada del usuario hasta que se proporcione un valor correcto. 3.- Procesamiento de datos: Procesar elementos de una lista o colección hasta que se alcance un criterio específico. 4.- Simulaciones: Ejecutar simulaciones que dependen de condiciones cambiantes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="../Assets/Decision.webp" alt="Ejemplo 1" class="card-img-top img-fluid rounded jump-rotate">
+                            <div class="card-body">
+                                <h5 class="card-title jump-rotate">Ventajas</h5>
+                                <p class="card-text jump-rotate">Flexibilidad: Permite ejecutar un bloque de código un número indefinido de veces.
+                                    Ideal para situaciones donde la cantidad de iteraciones no es conocida.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="../Assets/compu.webp" alt="Ejemplo 2" class="card-img-top img-fluid rounded jump-rotate">
+                            <div class="card-body">
+                                <h5 class="card-title jump-rotate">Desventajas</h5>
+                                <p class="card-text jump-rotate">Puede llevar a bucles infinitos si no se maneja adecuadamente.
+                                    Menos legible que otras estructuras de control en algunos casos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-light text-center py-4">
+        <p class="text-muted jump-rotate">&copy; 2023 Ana Karen. Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g" crossorigin="anonymous"></script>
+</body>
+</html>

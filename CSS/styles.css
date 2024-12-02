@@ -1,0 +1,75 @@
+/* Fuentes mejoradas */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@300;400;600&display=swap');
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+
+.rubik-wet-paint-regular {
+    font-family: "Open Sans", sans-serif; /* Cambiado a Open Sans */
+    font-weight: 400;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: url(../Assets/img/galaxy-night-panoramic.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: azure;
+    font-family: 'Roboto', sans-serif; /* Fuente base más legible */
+}
+
+section {
+    padding: 2rem; /* Aumentado para mejor espaciado */
+}
+
+h2 {
+    font-size: 2.5rem; /* Tamaño de fuente ajustado */
+    color: #976749;
+    letter-spacing: 0.1rem; /* Ajustado para mejor legibilidad */
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 0 2px #976749, 0 4px #976749; /* Sombra más suave */
+    margin-bottom: 1rem; /* Espaciado inferior */
+}
+
+.texto {
+    font-family: "Open Sans", sans-serif; /* Cambiado a Open Sans */
+    font-size: 1.1rem; /* Tamaño de fuente ajustado */
+    letter-spacing: 0.05rem; /* Ajustado para mejor legibilidad */
+    color: #dee6e7;
+    line-height: 1.6; /* Aumentado para mejor legibilidad */
+}
+
+.footer {
+    color: #fffbfd;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el footer */
+}
+
+.footer-links a {
+    margin: 0 10px;
+    color: #fffbfd;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: #976749;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    color: #976749;
+}
+
+.bi {
+    font-size: 18px;
+    margin-right: 5px;
+}

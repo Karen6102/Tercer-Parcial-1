@@ -1,0 +1,24 @@
+body {
+    background: url(../Assets/planeta.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: azure;
+    font-family: 'Roboto', sans-serif; /* Fuente base más legible */
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;3
+    height: 100vh; /* Altura completa de la ventana */
+}
+
+iframe {
+    width: 100%; /* Ancho completo del contenedor */
+    height: 100%; /* Ajusta la altura del video */
+    max-width: 900px; /* Ancho máximo del video */
+    border: none; /* Sin borde alrededor del iframe */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para un efecto de profundidad */
+}
